@@ -4,11 +4,11 @@
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
 A: We create a new constraint called naked_twins and apply this constraint before
-the only_choice and eliminate constraints until the 
+the only_choice and eliminate constraints until the
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: *Student should provide answer here*
+A: We add the two diagonals of the sudoku as new units and execute previous constraints to solve the sudoku
 
 ### Install
 
